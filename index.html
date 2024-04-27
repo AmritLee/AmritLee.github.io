@@ -1,31 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div
-      id="app"
-      class="flex h-screen flex-col items-center justify-between py-8 text-center text-[#2c3e50] selection:bg-green-100"
-    >
-      <div>
-        <h1
-          class="bg-gradient-to-r from-green-600 to-sky-400 bg-clip-text text-5xl font-black text-transparent selection:bg-transparent"
-        >
-          Hello !
-        </h1>
-        <h3 class="my-4 text-2xl font-bold text-gray-500">
-          Vite + JS + tailwindcss v3
-        </h3>
-        <a href="https://vitejs.dev/guide/features.html" target="_blank"
-          >Documentation</a
-        >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Amrit's Project Portfolio</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
+</head>
+
+<body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed"
+  style="background-image: url(images/header.png);">
+  <div class="h-full">
+    <!--Nav-->
+    <div class="w-full container mx-auto">
+      <div class="w-full flex items-center justify-between">
+        <a class="flex items-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-pink-500 to-purple-500 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          href="#">
+          AmritLee's Portfolio
+        </a>
+
+        <div class="flex w-1/2 justify-end content-center">
+          <a class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            href="https://www.instagram.com/your_username/">
+            <!-- replace with username -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-6" viewBox="0 0 24 24">
+              <path fill="none" d="M0 0h24v24H0V0z" />
+              <path
+                d="M12 2c3.31 0 3.732.013 5.037.072 1.303.06 2.294.266 2.946.565.64.296 1.123.69 1.613 1.18.49.49.884.973 1.18 1.613.3.652.505 1.643.565 2.946.06 1.305.072 1.727.072 5.037s-.013 3.732-.072 5.037c-.06 1.303-.266 2.294-.565 2.946-.296.64-.69 1.123-1.18 1.613-.49.49-.973.884-1.613 1.18-.652.3-1.643.505-2.946.565-1.305.06-1.727.072-5.037.072s-3.732-.013-5.037-.072c-1.303-.06-2.294-.266-2.946-.565-.64-.296-1.123-.69-1.613-1.18-.49-.49-.884-.973-1.18-1.613-.3-.652-.505-1.643-.565-2.946-.06-1.305-.072-1.727-.072-5.037s.013-3.732.072-5.037c.06-1.303.266-2.294.565-2.946.296-.64.69-1.123 1.18-1.613.49-.49.973-.884 1.613-1.18.652-.3 1.643-.505 2.946-.565 1.305-.06 1.727-.072 5.037-.072zM12 4c-3.547 0-4.008.01-5.408.068-1.224.056-1.933.243-2.425.421a3.742 3.742 0 0 0-1.754 1.059 3.742 3.742 0 0 0-1.06 1.754c-.177.492-.365 1.201-.421 2.425C2.01 7.992 2 8.453 2 12s.01 4.008.068 5.408c.056 1.224.243 1.933.421 2.425a3.742 3.742 0 0 0 1.059 1.754 3.742 3.742 0 0 0 1.754 1.059c.492.177 1.201.365 2.425.421C7.992 21.99 8.453 22 12 22s4.008-.01 5.408-.068c1.224-.056 1.933-.243 2.425-.421a3.742 3.742 0 0 0 1.754-1.059 3.742 3.742 0 0 0 1.059-1.754c.177-.492.365-1.201.421-2.425.058-1.4.068-1.861.068-5.408s-.01-4.008-.068-5.408c-.056-1.224-.243-1.933-.421-2.425a3.742 3.742 0 0 0-1.059-1.754 3.742 3.742 0 0 0-1.754-1.059c-.492-.177-1.201-.365-2.425-.421C16.008 4.01 15.547 4 12 4zm0 5c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-2.22 0-4-1.78-4-4s1.78-4 4-4 4 1.78 4 4-1.78 4-4 4z" />
+            </svg>
+          </a>
+          <a class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+            href="https://github.com/AmritLee">
+            <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+              </path>
+            </svg>
+          </a>
+        </div>
       </div>
-      <img class="block" src="./src/assets/powered-by-vitawind-bright.png" />
     </div>
-    <script type="module" src="./src/main.js"></script>
-  </body>
+
+    <!--Main-->
+    <div
+      class="container mx-auto mt-8 md:mt-20 px-6 md:px-0 flex flex-wrap flex-col md:flex-row items-center justify-center">
+      <!--Left Col-->
+      <div class="flex flex-col w-full md:w-2/3 justify-center lg:items-start overflow-y-hidden">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="flex flex-col items-center md:items-start md:text-left">
+            <h1 class="my-4 text-3xl md:text-5xl text-white font-bold leading-tight text-center md:text-left">
+              Hello, I'm
+              <span
+                class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-pink-500 to-purple-500 block">
+                Amrit Lee ✌
+              </span>
+            </h1>
+            <p class="leading-normal text-base md:text-2xl mb-10 text-center md:text-left">
+              Amatuer coder doing amatuer work for fun.
+            </p>
+            <p>Attempting to learn:</p>
+            <div class="flex flex-wrap justify-center md:justify-start">
+              <div class="bg-blue-200 text-blue-800 rounded-full px-2 py-1 mr-1 mb-1">Java</div>
+              <div class="bg-green-200 text-green-800 rounded-full px-2 py-1 mr-1 mb-1">JavaScript</div>
+              <div class="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 mr-1 mb-1">CSS</div>
+              <div class="bg-purple-200 text-purple-800 rounded-full px-2 py-1 mr-1 mb-1">HTML</div>
+            </div>
+          </div>
+          <div class="md:ml-6 w-full md:w-auto">
+            <img src="images/Quokka.jpg" alt="Your Image" class="w-full h-auto md:w-full md:h-auto rounded-lg">
+          </div>
+        </div>
+        <h2 class="py-2 text-2xl md:text-5xl text-white font-bold mb-4 text-center md:text-left mx-auto md:mx-0">
+          Recent Projects
+        </h2>
+        <section class="bg-gray-900 rounded-lg p-4 mb-4">
+          <div class="w-full overflow-x-auto">
+            <section class="bg-gray-900 rounded-lg p-4 mb-4 flex flex-no-wrap">
+              <div class="flex flex-wrap justify-center md:justify-start">
+                <div class="w-full px-4 mb-8">
+                  <article class="bg-gray-800 rounded-lg p-6">
+                    <a href="https://github.com/your_username/your_project" class="w-full mb-4 md:mb-0">
+                      <!-- replace https with github -->
+                      <h3 class="text-xl font-bold mb-2 mr-4 text-center md:text-left">Valentine's Card (in progress)</h3>
+                    </a>
+                    <div class="flex flex-wrap justify-center md:justify-start">
+                      <div class="bg-green-200 text-green-800 rounded-full px-2 py-1 mr-1 mb-1">JavaScript</div>
+                      <div class="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 mr-1 mb-1">HTML</div>
+                      <div class="bg-purple-200 text-purple-800 rounded-full px-2 py-1 mr-1 mb-1">CSS</div>
+                    </div>
+                    <p class="text-white mt-2">Inspired by coding Tanu (YouTube)</p>
+                    <p class="text-white mt-2">This card guarantees success 100% of the time... sometimes.</p>
+                  </article>
+                </div>
+                <div class="flex flex-wrap justify-center md:justify-start">
+                  <div class="w-full px-4 mb-8">
+                    <article class="bg-gray-800 rounded-lg p-6">
+                      <a href="https://github.com/your_username/your_project" class="w-full mb-4 md:mb-0">
+                        <!-- replace https with github -->
+                        <h3 class="text-xl font-bold mb-2 mr-4 text-center md:text-left">Virtual Pet (in progress)</h3>
+                      </a>
+                      <div class="flex flex-wrap justify-center md:justify-start">
+                        <div class="bg-blue-200 text-blue-800 rounded-full px-2 py-1 mr-1 mb-1">Java</div>
+                        <div class="bg-green-200 text-green-800 rounded-full px-2 py-1 mr-1 mb-1">JavaScript</div>
+                        <div class="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 mr-1 mb-1">HTML</div>
+                        <div class="bg-purple-200 text-purple-800 rounded-full px-2 py-1 mr-1 mb-1">CSS</div>
+                      </div>
+                      <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        bibendum.
+                        Nunc non
+                        posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.</p>
+                    </article>
+                  </div>
+                  <div class="flex flex-wrap justify-center md:justify-start">
+                    <div class="w-full px-4 mb-8">
+                      <article class="bg-gray-800 rounded-lg p-6">
+                        <a href="https://github.com/your_username/your_project" class="w-full mb-4 md:mb-0">
+                          <!-- replace https with github -->
+                          <h3 class="text-xl font-bold mb-2 mr-4 text-center md:text-left">Project 3</h3>
+                        </a>
+                        <div class="flex flex-wrap justify-center md:justify-start">
+                          <div class="bg-blue-200 text-blue-800 rounded-full px-2 py-1 mr-1 mb-1">Java</div>
+                          <div class="bg-green-200 text-green-800 rounded-full px-2 py-1 mr-1 mb-1">JavaScript</div>
+                          <div class="bg-yellow-200 text-yellow-800 rounded-full px-2 py-1 mr-1 mb-1">HTML</div>
+                          <div class="bg-purple-200 text-purple-800 rounded-full px-2 py-1 mr-1 mb-1">CSS</div>
+                        </div>
+                        <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                          bibendum.
+                          Nunc non
+                          posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.</p>
+                      </article>
+                    </div>
+            </section>
+          </div>
+      </div>
+    <footer class="bg-gray-800 text-white py-4 w-full fixed bottom-0 left-0">
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+        <p class="text-center md:text-left">Contact me at: <a href="mailto:your.email@example.com"
+            class="underline">your.email@example.com</a></p>
+        <p class="text-center md:text-right mt-4 md:mt-0">Follow me on <a href="https://www.twitter.com/your_username"
+            class="underline">Twitter</a> and <a href="https://www.linkedin.com/in/your_username"
+            class="underline">LinkedIn</a></p>
+      </div>
+    </footer>
+    </div>
+</body>
+
 </html>
